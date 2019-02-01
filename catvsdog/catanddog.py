@@ -15,10 +15,10 @@ def get_files(file_dir):
     for file in os.listdir(file_dir):
         name = file.split(sep='.')
         if name[0] == 'cat':
-            cats.append(file_dir+file)
+            cats.append(file_dir+'/'+file)
             label_cats.append(0)
         else:
-            dogs.append(file_dir+file)
+            dogs.append(file_dir+'/'+file)
             label_dogs.append(1)
 
     print("There are %d cats\nThere are %d dogs"%(len(cats),len(dogs)))
@@ -74,3 +74,40 @@ def get_batch(image, label, image_W, image_H, batch_size, capacity):
     # label_batch = tf.reshape(label_batch, [batch_size])
 
     return image_batch, label_batch
+
+# TEST
+import matplotlib.pyplot as plt
+
+BATCH_SIZE = 2
+CAPACITY = 256
+IMG_W = 208
+IMG_H = 208
+
+train_dir = 'train'
+image_list, label_list = get_files(train_dir)
+image_batch, label_batch = get_batch(image_list,
+                                     label_list,
+                                     image_W=IMG_W,
+                                     image_H=IMG_H,
+                                     batch_size=BATCH_SIZE,
+                                     capacity=CAPACITY)
+
+with tf.Session() as sess:
+    i = 0
+    coord = tf.train.Coordinator()
+    threads = tf.train.start_queue_runners(coord=coord)
+    try:
+        while not coord.should_stop() and i<1:
+            img, label = sess.run([image_batch,label_batch])
+
+            for j in np.arange(BATCH_SIZE):
+                print("label: %d"%label[j])
+                plt.imshow(img[j, :, :, :])
+                plt.show()
+                i +=1
+
+    except tf.errors.OutOfRangeError:
+        print("done!")
+    finally:
+        coord.request_stop()
+    coord.join(threads)
