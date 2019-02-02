@@ -12,3 +12,10 @@ Batch:
  - 5000 images
  - Batch size = 10
  - iteration = 5000/10 = 500 iterations to train (one epoch)
+
+
+# How to get better performance
+ - use more complex model
+ - data argumentation (调整图片对比度之类)
+ - split data into **train** and **validation** and evaluate the validation dataset
+   - generate **batch** from **validation** and feed in

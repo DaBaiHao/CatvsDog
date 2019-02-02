@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="674f354a-5ab6-47a4-a8f7-7fe539b4425f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training.py" beforeDir="false" afterPath="$PROJECT_DIR$/training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +195,7 @@
       <updated>1548970220259</updated>
       <workItem from="1548970222475" duration="4743000" />
       <workItem from="1548977227919" duration="17298000" />
-      <workItem from="1549104315317" duration="6621000" />
+      <workItem from="1549104315317" duration="6896000" />
     </task>
     <task id="LOCAL-00001" summary="c">
       <created>1548975450606</created>
@@ -209,10 +208,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28662000" />
+    <option name="totallyTimeSpent" value="28937000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="386" y="0" width="1538" height="1047" extended-state="1" />
+    <frame x="386" y="0" width="1538" height="1047" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07293036" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
