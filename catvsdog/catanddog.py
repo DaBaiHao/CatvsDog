@@ -61,17 +61,18 @@ def get_batch(image, label, image_W, image_H, batch_size, capacity):
     # image = tf.image.resize_image_with_crop_or_pad(image, image_W, image_H)
 
     # csdn method
-    image = tf.image.resize_images(image, [image_H, image_W], method=tf.image.ResizeMethod.NEAREST_NEIGHBOR)
+    ## 这里可以做特征加强
+    image = tf.image.resize_images(image, [image_H, image_W], method=tf.image.ResizeMethod.BICUBIC)
     image = tf.cast(image, tf.float32)
 
-    # image = tf.image.per_image_standardization(image)
+    image = tf.image.per_image_standardization(image)
     # 标准化数据
     image_batch, label_batch = tf.train.batch([image, label],
                                               batch_size=batch_size,
                                               num_threads=64, # 线程
                                               capacity=capacity)
     # 这行多余？
-    # label_batch = tf.reshape(label_batch, [batch_size])
+    label_batch = tf.reshape(label_batch, [batch_size])
 
     return image_batch, label_batch
 
@@ -94,6 +95,8 @@ image_batch, label_batch = get_batch(image_list,
 
 with tf.Session() as sess:
     i = 0
+
+    # 每次读到什么地方下次从什么地方读
     coord = tf.train.Coordinator()
     threads = tf.train.start_queue_runners(coord=coord)
     try:
@@ -104,7 +107,7 @@ with tf.Session() as sess:
                 print("label: %d"%label[j])
                 plt.imshow(img[j, :, :, :])
                 plt.show()
-                i +=1
+            i +=1
 
     except tf.errors.OutOfRangeError:
         print("done!")
