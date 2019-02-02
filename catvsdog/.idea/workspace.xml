@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="674f354a-5ab6-47a4-a8f7-7fe539b4425f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/catanddog.py" beforeDir="false" afterPath="$PROJECT_DIR$/catanddog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
-    </list>
+    <list default="true" id="674f354a-5ab6-47a4-a8f7-7fe539b4425f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+            <state relative-caret-position="592">
+              <caret line="154" column="32" lean-forward="true" selection-start-line="154" selection-start-column="32" selection-end-line="154" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -57,9 +54,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="879" />
-    <option name="y" value="7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="715" />
+    <option name="y" value="15" />
     <option name="width" value="1045" />
     <option name="height" value="1047" />
   </component>
@@ -163,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1548970220259</updated>
       <workItem from="1548970222475" duration="4743000" />
-      <workItem from="1548977227919" duration="16759000" />
+      <workItem from="1548977227919" duration="17298000" />
     </task>
     <task id="LOCAL-00001" summary="c">
       <created>1548975450606</created>
@@ -176,18 +173,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21502000" />
+    <option name="totallyTimeSpent" value="22041000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="879" y="7" width="1045" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="715" y="15" width="1045" height="1047" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19533528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="620" y="323" width="1296" height="414" id="Run" order="2" visible="true" weight="0.21069519" />
+      <window_info anchor="bottom" x="620" y="323" width="1296" height="414" id="Run" order="2" weight="0.21069519" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.16791444" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -226,8 +222,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+        <state relative-caret-position="592">
+          <caret line="154" column="32" lean-forward="true" selection-start-line="154" selection-start-column="32" selection-end-line="154" selection-end-column="32" />
         </state>
       </provider>
     </entry>
