@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="674f354a-5ab6-47a4-a8f7-7fe539b4425f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-    </list>
+    <list default="true" id="674f354a-5ab6-47a4-a8f7-7fe539b4425f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/training.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="284">
+              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="e#4#13#0" expanded="true" />
               </folding>
@@ -195,7 +193,7 @@
       <updated>1548970220259</updated>
       <workItem from="1548970222475" duration="4743000" />
       <workItem from="1548977227919" duration="17298000" />
-      <workItem from="1549104315317" duration="6896000" />
+      <workItem from="1549104315317" duration="7600000" />
     </task>
     <task id="LOCAL-00001" summary="c">
       <created>1548975450606</created>
@@ -208,7 +206,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28937000" />
+    <option name="totallyTimeSpent" value="29641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="386" y="0" width="1538" height="1047" extended-state="0" />
@@ -271,8 +269,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/training.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="284">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
             <element signature="e#4#13#0" expanded="true" />
           </folding>
