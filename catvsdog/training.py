@@ -78,7 +78,13 @@ def get_one_image(train):
     img_dir = train[ind]
 
     image = Image.open(img_dir)
+    print(img_dir)
+    print(image)
+
+    # 光有imshow, 没有plt.show 图片显示不出来
     plt.imshow(image)
+    plt.show()
+
     image = image.resize([208, 208])
     image = np.array(image)
 
@@ -96,6 +102,7 @@ def evaluate_one_image():
 
         image = tf.cast(image_array, tf.float32)
         image = tf.reshape(image, [1, 208, 208, 3])
+
         logit = model.inference(image, BATCH_SIZE, N_CLASSES)
         # 激活函数
         logit = tf.nn.softmax(logit)

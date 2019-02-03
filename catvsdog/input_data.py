@@ -76,6 +76,8 @@ def get_batch(image, label, image_W, image_H, batch_size, capacity):
 
     return image_batch, label_batch
 
+"""
+
 # TEST
 import matplotlib.pyplot as plt
 
@@ -114,3 +116,4 @@ with tf.Session() as sess:
     finally:
         coord.request_stop()
     coord.join(threads)
+"""
