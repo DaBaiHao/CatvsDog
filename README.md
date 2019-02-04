@@ -1,21 +1,41 @@
 # Cats vs. Dogs
 This project is for the Kaggle Cats vs. Dogs based on tenorflow. The dataset can be donwnload from [Cats vs. Dogs](https://www.kaggle.com/c/dogs-vs-cats/data)
-### method
-#### method `get_files(file_dir)`  :
-This method is to get all of the training data from given `file_dir`, and return as a list.
 
-Because half of the training dataset is cats and another half is dogs, so the order of data is being Disrupted.
+###  First time experiment report
 
-Using `np.hstack()` to combine all of the cat and dog images.
+## Aim of this experiment:
+ - Learn tensorflow
+ - Learn CNN
 
-Batch:
- - 5000 images
- - Batch size = 10
- - iteration = 5000/10 = 500 iterations to train (one epoch)
+## About the code:
+The code is fully followed [Guoqing Xu tutorial](https://www.youtube.com/watch?v=8EXMxQwuCrs&index=17&list=PLnUknG7KBFzqMSDZC1mnYMN0zMoRaH68r).
+
+## Changes
+#### 1. `tf.image.resize_image_with_crop_or_pad()`
+- **Location:** pre-process stage, the tutorial using the `tf.image.resize_image_with_crop_or_pad()` method to resize the trainning images.
+- **Problems:** This method is to resize the image by cut or add the black bar to resize the given images. Might influence the accurcy of the trainning performance
+- **Solution:** change the resize method to `tf.image.resize_images(image, [image_H, image_W], method=tf.image.ResizeMethod.BICUBIC)`.
+- **Benifit:** This method resize the images by bicubic interpolation and just Stretch the images
+
+## Quentions:
+1. bicubic interpolation
+2. shape=[3,3,3,16], the [3,3,**3**,16] is what
+``` python
+weights = tf.get_variable('weights',
+                         shape=[3,3,3,16],
+                         dtype=tf.float32,
+                         initializer=tf.truncated_normal_initializer(stddev=0.1, dtype=tf.float32))
+```
+3. poolling layer
+
+### Result
+1. The whole result shows [here](https://github.com/DaBaiHao/CatvsDog/blob/master/train/first_train.txt).
+2. tabel: 
+
 
 ----
-
-# How to get better performance
+Learining Point
+#### How to get better performance
  - use more complex model
  - data argumentation (调整图片对比度之类)
  - split data into **train** and **validation** and evaluate the validation dataset
@@ -23,7 +43,7 @@ Batch:
 
 
 
-# 池化层
+#### 池化层
 在卷积神经网络中，卷积层之间往往会加上一个池化层。池化层可以非常有效地缩小参数矩阵的尺寸，从而减少最后全连层中的参数数量。使用池化层即可以加快计算速度也有防止过拟合的作用。
 
 
