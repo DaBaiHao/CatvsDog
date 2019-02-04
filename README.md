@@ -13,7 +13,7 @@ The code is fully followed [Guoqing Xu tutorial](https://www.youtube.com/watch?v
 ## Changes
 #### 1. `tf.image.resize_image_with_crop_or_pad()`
 - **Location:** pre-process stage, the tutorial using the `tf.image.resize_image_with_crop_or_pad()` method to resize the trainning images.
-- **Problems:** This method is to resize the image by cut or add the black bar to resize the given images. Might influence the accurcy of the trainning performance
+- **Problems:** This method is to resize the image by cut or add the black bar to resize the given images from center. Might influence the accurcy of the trainning performance. For example the if one image is very large, the animals might cut only the body, from an animals body is hard to predict what animals is.
 - **Solution:** change the resize method to `tf.image.resize_images(image, [image_H, image_W], method=tf.image.ResizeMethod.BICUBIC)`.
 - **Benifit:** This method resize the images by bicubic interpolation and just Stretch the images
 
@@ -30,8 +30,9 @@ weights = tf.get_variable('weights',
 
 ### Result
 1. The whole result shows [here](https://github.com/DaBaiHao/CatvsDog/blob/master/train/first_train.txt).
-2. tabel: 
-
+2. tabel:
+### Limation:
+The error also makes, for example the predicte a dog image, it also might classified to cats.s
 
 ----
 Learining Point
