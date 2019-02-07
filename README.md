@@ -1,8 +1,9 @@
 # Cats vs. Dogs
 This project is for the Kaggle Cats vs. Dogs based on tenorflow. The dataset can be donwnload from [Cats vs. Dogs](https://www.kaggle.com/c/dogs-vs-cats/data)
 
+---
 ###  First time experiment report
-
+---
 ## Aim of this experiment:
  - Learn tensorflow
  - Learn CNN
@@ -31,11 +32,25 @@ weights = tf.get_variable('weights',
 ### Result
 1. The whole result shows [here](https://github.com/DaBaiHao/CatvsDog/blob/master/train/first_train.txt).
 2. tabel:
+
 ### Limation:
 The error also makes, for example the predicte a dog image, it also might classified to cats.s
 
+
+---
+## Second time experiment report
+---
+
+Using keras to implement and train a model
+
+## question
+
+`pre_x = np.array(pre_x)/255.0` All preprocessing need this normolization. Why?
+
+
+
 ----
-Learining Point
+## Learining Point
 #### How to get better performance
  - use more complex model
  - data argumentation (调整图片对比度之类)
