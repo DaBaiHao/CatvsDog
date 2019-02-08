@@ -42,7 +42,9 @@ The error also makes, for example the predicte a dog image, it also might classi
 ---
 
 Using keras to implement and train a model
-
+ - CNN: `model_keras.py`
+ - using the vgg16 network model to train: file `vgg16_fromkeras.py`.
+ - and future modify the last connverlutional layer to train with smaller learning rate: file:`vgg_better_smallerLearningRate.py`
 ## question
 
 `pre_x = np.array(pre_x)/255.0` All preprocessing need this normolization. Why?
