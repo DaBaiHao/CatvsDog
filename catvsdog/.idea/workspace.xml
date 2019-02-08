@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="674f354a-5ab6-47a4-a8f7-7fe539b4425f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/model_keras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/predicted_keras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgg16_fromkeras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgg_better_smallerLearningRate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1/events.out.tfevents.1549574637.UWYSBES9VT7OREC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1/events.out.tfevents.1549577497.UWYSBES9VT7OREC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1/events.out.tfevents.1549577860.UWYSBES9VT7OREC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1/events.out.tfevents.1549577999.UWYSBES9VT7OREC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1/events.out.tfevents.1549578084.UWYSBES9VT7OREC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1/events.out.tfevents.1549578135.UWYSBES9VT7OREC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1/events.out.tfevents.1549578801.UWYSBES9VT7OREC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1/events.out.tfevents.1549579546.UWYSBES9VT7OREC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predicted_keras.py" beforeDir="false" afterPath="$PROJECT_DIR$/predicted_keras.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/morph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-206">
+            <state relative-caret-position="93">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
@@ -54,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model_keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="246">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -63,13 +70,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/predicted_keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            <state relative-caret-position="215">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vgg16_fromkeras.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vgg_better_smallerLearningRate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,13 +147,15 @@
         <option value="$PROJECT_DIR$/model_keras.py" />
         <option value="$PROJECT_DIR$/morph.py" />
         <option value="$PROJECT_DIR$/predicted_keras.py" />
+        <option value="$PROJECT_DIR$/vgg16_fromkeras.py" />
+        <option value="$PROJECT_DIR$/vgg_better_smallerLearningRate.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="639" />
-    <option name="width" value="1709" />
-    <option name="height" value="1040" />
+    <option name="x" value="654" />
+    <option name="width" value="1248" />
+    <option name="height" value="1022" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -137,11 +170,6 @@
             <path>
               <item name="catvsdog" type="b2602c69:ProjectViewProjectNode" />
               <item name="catvsdog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="catvsdog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="catvsdog" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.model_keras">
+  <component name="RunManager" selected="Python.vgg_better_smallerLearningRate">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="catvsdog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,28 +218,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="catanddog" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="catvsdog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Documents\GitHub\CatvsDog\catvsdog\input_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="model_keras" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="catvsdog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,6 +229,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_keras.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predicted_keras" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="catvsdog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predicted_keras.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,20 +275,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="training" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="vgg16_fromkeras" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="catvsdog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vgg16_fromkeras.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vgg_better_smallerLearningRate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="catvsdog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vgg_better_smallerLearningRate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,10 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.vgg_better_smallerLearningRate" />
+        <item itemvalue="Python.vgg16_fromkeras" />
+        <item itemvalue="Python.predicted_keras" />
         <item itemvalue="Python.model_keras" />
         <item itemvalue="Python.preprocess" />
-        <item itemvalue="Python.training" />
-        <item itemvalue="Python.catanddog" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +340,7 @@
       <workItem from="1549236384955" duration="1873000" />
       <workItem from="1549451775045" duration="2779000" />
       <workItem from="1549553198605" duration="1199000" />
-      <workItem from="1549574386792" duration="4618000" />
+      <workItem from="1549574386792" duration="7789000" />
     </task>
     <task id="LOCAL-00001" summary="c">
       <created>1548975450606</created>
@@ -311,13 +353,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47754000" />
+    <option name="totallyTimeSpent" value="50925000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="639" y="0" width="1709" height="1040" extended-state="0" />
+    <frame x="928" y="0" width="1248" height="1022" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16858703" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23400673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -332,13 +374,13 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.54083884" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.4572072" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.7451923" visible="true" weight="0.096422076" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.3713693" visible="true" weight="0.09848485" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="278" height="847" id="Documentation" order="5" sideWeight="0.25480768" side_tool="true" visible="true" weight="0.096422076" />
+      <window_info anchor="right" x="0" y="0" width="278" height="847" id="Documentation" order="5" sideWeight="0.6286307" side_tool="true" visible="true" weight="0.09848485" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,29 +431,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/predicted_keras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/morph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206">
+        <state relative-caret-position="93">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vgg16_fromkeras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model_keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="246">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/predicted_keras.py">
+    <entry file="file://$PROJECT_DIR$/vgg_better_smallerLearningRate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        <state relative-caret-position="31">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
